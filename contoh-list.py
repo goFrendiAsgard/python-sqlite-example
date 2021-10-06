@@ -4,6 +4,8 @@ print(buah)
 
 print('contoh list ---------------------------')
 buah_buahan = ['jeruk', 'strawberry', 'anggur']
+buah_buahan.append('durian') # nambah di belakang
+buah_buahan.insert(1, 'apel') # nambah di tengah
 print(buah_buahan)
 print(buah_buahan[0])
 print(buah_buahan[1])
